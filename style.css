@@ -242,6 +242,28 @@ main a::after{
     content: '\00a0\1F517';
 }
 
+.botaohome{
+    background-color: var(--cor3);
+    color: var(--cor6);
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 15px;
+    border: solid var(--cor4);
+}
+
+.botaohome:hover{
+    background-color: var(--cor5); 
+    color: var(--cor3);
+    padding: 7px;
+    border-radius: 15px;
+    border: solid var(--cor3);
+}
+
+.botaohome:active{ 
+    color: var(--cor1);
+    border: solid greenyellow;
+}
+
 
 
 
