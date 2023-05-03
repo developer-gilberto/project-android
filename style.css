@@ -103,6 +103,10 @@ footer{
     border-end-end-radius: 10px;
 }
 
+footer p{
+    text-align: center;
+}
+
 footer a{
     text-decoration: none;
     color: var(--cor1);
