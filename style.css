@@ -123,13 +123,14 @@ header h1{
     font-family: var(--font-Bebas-neue);
     color: var(--cor6);
     font-size: 40px;
-    text-shadow: rgb(141, 255, 47) 1px 2px 0px;
+    text-shadow: var(--cor1) 1px 2px 0px;
 }
 
 header p {
     color: #fff;
     margin-top: 20px;
     text-align: center;
+    text-indent: 0;
 }
 
 nav{margin: auto;
@@ -140,8 +141,8 @@ nav{margin: auto;
 
 nav a{
     font-family: Arial, Helvetica, sans-serif;
-    box-shadow: rgba(141, 255, 47, 0.937) 0px 0px 3px 2px;
-    border-radius: 20px;
+    border: 1px solid var(--cor1);
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     color: var(--cor1);
@@ -152,11 +153,9 @@ nav a{
 nav a:hover{
     background-color: var(--cor2);
     box-shadow:var(--cor3) 1px 0px 10px 2px;
-    padding: 7px;
     color: var(--cor6);
     font-weight: bold;
     transition-duration: 0.1s;
-    border: solid var(--cor6)
 }
 
 nav a:active{
